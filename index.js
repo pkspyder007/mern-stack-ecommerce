@@ -31,7 +31,7 @@ app.use("/brand", BrandRouter);
 app.use("/payment", PaymentRouter);
 
 const root = require("path").join("front-end", "build");
-app.use(express.static('build));
+app.use(express.static('build'));
 
 app.use("/uploads", express.static("uploads"));
 
