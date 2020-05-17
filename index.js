@@ -1,4 +1,4 @@
-const express = require("express");
+﻿const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
@@ -31,7 +31,7 @@ app.use("/brand", BrandRouter);
 app.use("/payment", PaymentRouter);
 
 const root = require("path").join("front-end", "build");
-app.use(express.static(root));
+app.use(express.static('build));
 
 app.use("/uploads", express.static("uploads"));
 
