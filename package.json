@@ -1,0 +1,34 @@
+{
+  "name": "liqrcart",
+  "version": "1.0.0",
+  "description": "Liqrcart backend node.js server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "npm install --prefix front-end && npm build --prefix front-end",
+    "client": "npm start --prefix front-end",
+    "dev": "concurrently \"nodemon index\" \"npm run client\""
+  },
+  "keywords": [
+    "liqrcart-backend"
+  ],
+  "author": "Rinnegan Technologies Pvt. Ltd.",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "instamojo-nodejs": "0.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.4",
+    "msg91": "0.0.6",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "passport": "^0.4.1",
+    "request": "^2.88.0",
+    "sendotp": "^1.2.9"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set Brand Image</title>
+</head>
+<body>
+  <select name="brands" id="brands">
+  </select>
+  <form action="/brand/upload" method="POST" enctype="multipart/form-data">
+    <input type="">
+    <input type="file" name="image" onchange="handleSubmit();" />
+    <button type="submit">Set image</button>
+  </form>
+
+  <script src="./axios.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      axios.get('/brand/allBrands').then(res => {
+        const {brands} = res.data;
+        brands.map(b => {
+          // let option = `<option value=${b._id} />${b.name}</option>`;
+          let option = document.createElement('option');
+          option.id = b._id;
+          option.innerText = b.name;
+          document.querySelector('#brands').appendChild(option);
+        })
+      });
+      function handlesubmit(e){
+        e.preventDefault();
+        console.log('djdl')
+      }
+      
+    });
+  </script>
+</body>
+</html>
