@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.338267dc.chunk.css",
+    "main.js": "/static/js/main.d99959ab.chunk.js",
+    "main.js.map": "/static/js/main.d99959ab.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3a477f72.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3a477f72.js.map",
+    "static/css/2.35f98baf.chunk.css": "/static/css/2.35f98baf.chunk.css",
+    "static/js/2.07507d48.chunk.js": "/static/js/2.07507d48.chunk.js",
+    "static/js/2.07507d48.chunk.js.map": "/static/js/2.07507d48.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5750298da0489459859dbae0bd3b6c02.js": "/precache-manifest.5750298da0489459859dbae0bd3b6c02.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.35f98baf.chunk.css.map": "/static/css/2.35f98baf.chunk.css.map",
+    "static/css/main.338267dc.chunk.css.map": "/static/css/main.338267dc.chunk.css.map",
+    "static/js/2.07507d48.chunk.js.LICENSE": "/static/js/2.07507d48.chunk.js.LICENSE",
+    "static/media/2.png": "/static/media/2.5b149431.png",
+    "static/media/beer.svg": "/static/media/beer.c9994697.svg",
+    "static/media/styles.css": "/static/media/bg.ac640be9.jpg",
+    "static/media/chevron-right.svg": "/static/media/chevron-right.9c59704b.svg",
+    "static/media/clock.svg": "/static/media/clock.ea3f87d1.svg",
+    "static/media/demo.jpg": "/static/media/demo.7e225393.jpg",
+    "static/media/demo2.jpg": "/static/media/demo2.b6649893.jpg",
+    "static/media/demo3.jpg": "/static/media/demo3.e5bc1f8f.jpg",
+    "static/media/demo4.jpg": "/static/media/demo4.88bc0013.jpg",
+    "static/media/grid-white.svg": "/static/media/grid-white.819ede78.svg",
+    "static/media/grid.svg": "/static/media/grid.0ed55763.svg",
+    "static/media/home-white.svg": "/static/media/home-white.20310f1b.svg",
+    "static/media/log-out.svg": "/static/media/log-out.8d509764.svg",
+    "static/media/logo.png": "/static/media/logo.c24e0f7c.png",
+    "static/media/search-white.svg": "/static/media/search-white.76dc78d3.svg",
+    "static/media/shopping-cart-white.svg": "/static/media/shopping-cart-white.2a969640.svg",
+    "static/media/x.svg": "/static/media/x.b0200bf7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a477f72.js",
+    "static/css/2.35f98baf.chunk.css",
+    "static/js/2.07507d48.chunk.js",
+    "static/css/main.338267dc.chunk.css",
+    "static/js/main.d99959ab.chunk.js"
+  ]
+}

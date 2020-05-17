@@ -36,7 +36,7 @@ app.use(express.static(root));
 app.use("/uploads", express.static("uploads"));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "front-end", "build", "index.html"));
+  res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
 //  Database connection
