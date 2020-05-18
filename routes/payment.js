@@ -84,26 +84,27 @@ router.post("/checkout", (req, res) => {
                   console.log(response);
                 });
 
-                // Update stock
-                const { products } = req.body.cart;
-                products.map((p) => {
-                  Product.findById(p._id, (err, doc) => {
-                    if (err) console.log(err);
-                    else {
-                      console.log(p.no);
-                      if (p.size == "q") {
-                        doc.quantity.q -= p.no;
-                      }
-                      if (p.size == "h") {
-                        doc.quantity.h -= p.no;
-                      }
-                      if (p.size == "f") {
-                        doc.quantity.f -= p.no;
-                      }
-                      Product.findByIdAndUpdate(doc.id, doc).catch(err);
-                    }
-                  });
-                });
+                // Update stock 
+              //commented to stop stock going out of stocl
+//                 const { products } = req.body.cart;
+//                 products.map((p) => {
+//                   Product.findById(p._id, (err, doc) => {
+//                     if (err) console.log(err);
+//                     else {
+//                       console.log(p.no);
+//                       if (p.size == "q") {
+//                         doc.quantity.q -= p.no;
+//                       }
+//                       if (p.size == "h") {
+//                         doc.quantity.h -= p.no;
+//                       }
+//                       if (p.size == "f") {
+//                         doc.quantity.f -= p.no;
+//                       }
+//                       Product.findByIdAndUpdate(doc.id, doc).catch(err);
+//                     }
+//                   });
+//                 });
 
                 res.json({ success: true, orderID: doc._id });
               })
