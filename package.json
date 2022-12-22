@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.1.7-alpha.3",
     "instamojo-nodejs": "0.0.5",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.8.4",
     "msg91": "0.0.6",
     "multer": "^1.4.2",
